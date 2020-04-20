@@ -2,7 +2,6 @@
     "githubPullRequests.remotes": [
         "origin",
         "upstream",
-        "git@github.com:herbertmora/Front-end-Star-Wars.git",
-        "https://github.com/herbertmora/Front-end-Star-Wars/branches"
+        "git@github.com:herbertmora/Front-end-Star-Wars.git"
     ]
 }
