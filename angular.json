@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "apiC"
+    }
+  },
+  "defaultProject": "apiC",
+  "cli": {
+    "analytics": "abdb1525-811d-4c96-874c-0ac0272a2986"
+  }
 }
