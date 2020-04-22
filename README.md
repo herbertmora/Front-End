@@ -11,4 +11,6 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 
 # En Caso de falla
 
-Si al realizar la descarga o clonacion del proyecto genera el error 
+Si al realizar la descarga o clonacion del proyecto genera el error "An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json"  por favor instalar    npm install @angular-devkit/schematics
+
+Gracias
