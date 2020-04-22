@@ -35,4 +35,14 @@ export class DataSWService {
     return this.http.get('https://swapi.py4e.com/api/vehicles/' + id);
   }
 
+
+//Planets
+// getplanets(){
+//   return this.http.get('https://swapi.py4e.com/api/planets/');
+// }
+
+// getplanet(id: number){
+//   return this.http.get('https://swapi.py4e.com/api/planets/' + id);
+// }
+
 }
