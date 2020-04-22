@@ -11,8 +11,10 @@ export class ContentsMainComponent implements OnInit {
   cantidad: string;
   peoples: any[] = [];
   vehicles: any[] = [];
+  planets: any[] = [];
   nombre: string;
   nombreVehiculo: string;
+  nombreplaneta: string;
   altura: string;
   peso: string;
   colorCabello: string;
@@ -66,5 +68,33 @@ export class ContentsMainComponent implements OnInit {
         console.error(error);
       }
     );
+
+    // this.dataSWService.getplanets()
+    // .subscribe(
+    //   (data) => { // Success
+    //     this.nombreplaneta = data['name'];
+
+    //     console.log(data);
+    //   },
+    //   (error) => {
+    //     console.error(error);
+    //   }
+    // );
+
+    // this.dataSWService.getplanet(1)
+    // .subscribe(
+    //   (data) => { // Success
+    //     this.planets = data['results'];
+
+    //     console.log(data);
+    //   },
+    //   (error) => {
+    //     console.error(error);
+    //   }
+    // );
+
+
+
+
   }
 }
