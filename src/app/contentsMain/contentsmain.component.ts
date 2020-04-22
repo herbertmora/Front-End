@@ -19,6 +19,7 @@ export class ContentsMainComponent implements OnInit {
   peso: string;
   colorCabello: string;
   navsNombre: string;
+  
 
   constructor(private dataSWService: DataSWService) { }
   ngOnInit() {
