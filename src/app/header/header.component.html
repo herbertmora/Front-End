@@ -1,18 +1,32 @@
 <header>
-<a href="index.html"><img class="logo" src="../../assets/images/starwars_logo.png" title="Inicio"></a>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  
   
   <div class="social_icons">
-    <ul>
+    <a href="index.html"><img class="logo" src="../../assets/images/starwars_logo.png" title="Inicio"></a>
+  
+   
+    
+    <!--<ul>
       <li class="facebook"><a href="https://www.facebook.com/StarWars" target="_blank"><img src="../../assets/images/facebook.png" title="facebook"></a></li>
       <li class="tumblr"><a href="https://starwars.tumblr.com/" target="_blank"><img src="../../assets/images/tumblr.png" title="tumblr"></a></li>
       <li class="twitter"><a href="https://twitter.com/starwars" target="_blank"><img src="../../assets/images/gorjeo.png" title="twitter"></a></li>
       <li class="instagram"><a href="https://www.instagram.com/starwars/" target="_blank"><img src="../../assets/images/instagram.png" title="instagram"></a></li>
       <li class="youtube"><a href="https://www.youtube.com/user/starwars" target="_blank"><img src="../../assets/images/youtube.png" title="youtube"></a></li>
-    </ul>
+    </ul>-->
   </div>
 
   <div class="eslogan">
-    <p></p>
+    <div id="main" ng-app>
+      <nav ng-click="$event.preventDefault()">
+        
+        <a href="#" class="home" ng-click="active='home'">Episodios</a>
+        <a href="#" class="projects" ng-click="active='projects'">Personajes</a>
+        <a href="#" class="services" ng-click="active='services'">Naves</a>
+        <a href="#" class="contact" ng-click="active='contact'">Films</a>
+      </nav>
+    
+    </div>
     
   </div>
 
