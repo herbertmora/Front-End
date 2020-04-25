@@ -36,12 +36,12 @@ export class DataSWService {
   }
 
 //Planets
-// getplanets(){
-//   return this.http.get('https://swapi.py4e.com/api/planets/');
-// }
+getplanets(){
+  return this.http.get('https://swapi.py4e.com/api/planets/');
+}
 
-// getplanet(id: number){
-//   return this.http.get('https://swapi.py4e.com/api/planets/' + id);
-// }
+getplanet(id: number){
+  return this.http.get('https://swapi.py4e.com/api/planets/' + id);
+}
 
 }
