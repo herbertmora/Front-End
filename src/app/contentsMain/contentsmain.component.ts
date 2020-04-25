@@ -18,8 +18,7 @@ export class ContentsMainComponent implements OnInit {
   altura: string;
   peso: string;
   colorCabello: string;
-  navsNombre: string;
-  
+  navsNombre: string;  
 
   constructor(private dataSWService: DataSWService) { }
   ngOnInit() {
@@ -70,31 +69,29 @@ export class ContentsMainComponent implements OnInit {
       }
     );
 
-    // this.dataSWService.getplanets()
-    // .subscribe(
-    //   (data) => { // Success
-    //     this.nombreplaneta = data['name'];
+    this.dataSWService.getplanets()
+    .subscribe(      
+      (data) => { // Success
+        this.nombreplaneta = data['name'];
 
-    //     console.log(data);
-    //   },
-    //   (error) => {
-    //     console.error(error);
-    //   }
-    // );
+        console.log(data);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
 
-    // this.dataSWService.getplanet(1)
-    // .subscribe(
-    //   (data) => { // Success
-    //     this.planets = data['results'];
+    this.dataSWService.getplanet(1)
+    .subscribe(
+      (data) => { // Success
+        this.planets = data['results'];
 
-    //     console.log(data);
-    //   },
-    //   (error) => {
-    //     console.error(error);
-    //   }
-    // );
-
-
+        console.log(data);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
 
 
   }
