@@ -10,7 +10,7 @@ export class StarshipService {
 
   public GetStarship() {  
     debugger;
-  const url = 'https://swapi.py4e.com/api/starships/9/';
+  const url = 'https://swapi.py4e.com/api/starships/';
 
   const options = {
     headers: new HttpHeaders(
