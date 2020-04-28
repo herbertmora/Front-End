@@ -12,3 +12,5 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 # En Caso de falla
 
 Si al realizar la descarga o clonacion del proyecto genera el error 
+
+Prueba de conectividad desde linux
