@@ -43,5 +43,13 @@ getplanets(){
 getplanet(id: number){
   return this.http.get('https://swapi.py4e.com/api/planets/' + id);
 }
-
+//Starships
+getstarships(){
+  return this.http.get('https://swapi.py4e.com/api/starships/');
 }
+
+getstarship(id: number){
+  return this.http.get('https://swapi.py4e.com/api/starships/' + id);
+}
+}
+
