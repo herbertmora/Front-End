@@ -17,7 +17,16 @@ import { PeopleComponent} from './people/people.component';
 import { PlanetService} from './servicios/planet.service';
 import { PlanetComponent} from './planet/planet.component';
 import { StarshipService} from './servicios/starship.service';
+
+import { Starship1Service} from './servicios/starship1.service';
+
+import { Starship2Service} from './servicios/starship2.service';
+
 import { StarshipComponent} from './starship/starship.component';
+import { Starship1Component} from './starship1/starship1.component';
+
+import { Starship2Component} from './starship2/starship2.component';
+
 import { VehicleService} from './servicios/vehicle.service';
 import { VehicleComponent} from './vehicle/vehicle.component';
 import { SpeciesService} from './servicios/species.service';
@@ -35,6 +44,8 @@ import { SpeciesComponent} from './species/species.component';
     PeopleComponent,
     PlanetComponent,
     StarshipComponent,
+    Starship1Component,
+    Starship2Component,
     VehicleComponent,
     SpeciesComponent
   ],
@@ -42,7 +53,7 @@ import { SpeciesComponent} from './species/species.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, VehicleService, SpeciesService],
+  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service,Starship2Service,VehicleService, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

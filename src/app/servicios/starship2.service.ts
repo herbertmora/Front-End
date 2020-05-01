@@ -4,13 +4,13 @@ import { map, finalize } from 'rxjs/operators';
 
 
 @Injectable()
-export class StarshipService {
+export class Starship2Service {
 
   constructor(public httpClient: HttpClient) { }
 
-  public GetStarship() {  
+  public GetStarship2() {  
     debugger;
-  const url = 'https://swapi.py4e.com/api/starships/9/';
+  const url = 'https://swapi.py4e.com/api/starships/12/';
   
   
 

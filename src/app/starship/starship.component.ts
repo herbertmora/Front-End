@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { StarshipService } from '../servicios/starship.service';
 
+
 @Component({
   selector: 'app-starship',
   templateUrl: './starship.component.html',
@@ -33,3 +34,4 @@ export class StarshipComponent implements OnInit {
 
 
 }
+
