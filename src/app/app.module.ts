@@ -24,7 +24,7 @@ import { Starship4Service} from './servicios/starship4.service';
 import { Starship5Service} from './servicios/starship5.service';
 import { Starship6Service} from './servicios/starship6.service';
 import { Starship7Service} from './servicios/starship7.service';
-
+import { Starship8Service} from './servicios/starship8.service';
 
 import { StarshipComponent} from './starship/starship.component';
 import { Starship1Component} from './starship1/starship1.component';
@@ -34,6 +34,7 @@ import { Starship4Component} from './starship4/starship4.component';
 import { Starship5Component} from './starship5/starship5.component';
 import { Starship6Component} from './starship6/starship6.component';
 import { Starship7Component} from './starship7/starship7.component';
+import { Starship8Component} from './starship8/starship8.component';
 
 import { VehicleService} from './servicios/vehicle.service';
 import { VehicleComponent} from './vehicle/vehicle.component';
@@ -59,6 +60,7 @@ import { SpeciesComponent} from './species/species.component';
     Starship5Component,
     Starship6Component,
     Starship7Component,
+    Starship8Component,
     VehicleComponent,
     SpeciesComponent
   ],
@@ -66,7 +68,7 @@ import { SpeciesComponent} from './species/species.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, VehicleService, SpeciesService],
+  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
