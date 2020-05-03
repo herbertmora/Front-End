@@ -46,7 +46,7 @@ import { SpeciesComponent} from './species/species.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
+    
     ContentsMainComponent,
     BodyFilmsComponent,
     FilmComponent,
@@ -62,7 +62,8 @@ import { SpeciesComponent} from './species/species.component';
     Starship7Component,
     Starship8Component,
     VehicleComponent,
-    SpeciesComponent
+    SpeciesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
