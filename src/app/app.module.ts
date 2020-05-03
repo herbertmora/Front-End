@@ -46,7 +46,6 @@ import { SpeciesComponent} from './species/species.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    
     ContentsMainComponent,
     BodyFilmsComponent,
     FilmComponent,
