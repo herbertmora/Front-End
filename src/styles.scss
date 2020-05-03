@@ -221,6 +221,7 @@ li.youtube:hover {
 
 /*******************grid naves********************/
 
+
 .seccion_naves {
   margin: 5px;
   padding: 5px;
@@ -233,7 +234,9 @@ li.youtube:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 18px;
   grid-auto-rows: minmax(100px, auto);
+  
 }
+
 
 
 .nave_container {
