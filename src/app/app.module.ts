@@ -25,6 +25,9 @@ import { Starship5Service} from './servicios/starship5.service';
 import { Starship6Service} from './servicios/starship6.service';
 import { Starship7Service} from './servicios/starship7.service';
 import { Starship8Service} from './servicios/starship8.service';
+import { VehicleService} from './servicios/vehicle.service';
+import { Vehicle1Service} from './servicios/vehicle1.service';
+import { SpeciesService} from './servicios/species.service';
 
 import { StarshipComponent} from './starship/starship.component';
 import { Starship1Component} from './starship1/starship1.component';
@@ -35,11 +38,12 @@ import { Starship5Component} from './starship5/starship5.component';
 import { Starship6Component} from './starship6/starship6.component';
 import { Starship7Component} from './starship7/starship7.component';
 import { Starship8Component} from './starship8/starship8.component';
-
-import { VehicleService} from './servicios/vehicle.service';
+import { Vehicle1Component} from './vehicle1/vehicle1.component';
 import { VehicleComponent} from './vehicle/vehicle.component';
-import { SpeciesService} from './servicios/species.service';
 import { SpeciesComponent} from './species/species.component';
+
+
+
 
 
 @NgModule({
@@ -61,6 +65,7 @@ import { SpeciesComponent} from './species/species.component';
     Starship7Component,
     Starship8Component,
     VehicleComponent,
+    Vehicle1Component,
     SpeciesComponent,
     FooterComponent
   ],
@@ -68,7 +73,8 @@ import { SpeciesComponent} from './species/species.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
+  // tslint:disable-next-line: max-line-length
+  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, Vehicle1Service, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
