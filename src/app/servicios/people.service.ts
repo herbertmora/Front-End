@@ -8,18 +8,18 @@ export class PeopleService {
 
   constructor(public httpClient: HttpClient) { }
 
-  public GetPeople() {  
+  public GetPeople() {
     debugger;
-  const url = 'https://swapi.py4e.com/api/people/1/';
+    const url = 'https://swapi.py4e.com/api/people/1/';
 
-  const options = {
+    const options = {
     headers: new HttpHeaders(
       {
-        'Content-Type': 'application/json'       
+        'Content-Type': 'application/json'
       }
     )
   };
-  return this.httpClient.get(url, options).pipe(map((response: Response) => {  return response;  }) );
+    return this.httpClient.get(url, options).pipe(map((response: Response) => {  return response;  }) );
 
   }
 

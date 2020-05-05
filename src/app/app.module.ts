@@ -14,7 +14,7 @@ import { FilmService} from './servicios/film.service';
 import { FilmComponent} from './film/film.component';
 import { Film1Service} from './servicios/film1.service';
 import { PeopleService} from './servicios/people.service';
-import { People1Service} from './servicios/people1.service';
+import { People1Service} from './servicios1/people1.service';
 import { PlanetService} from './servicios/planet.service';
 import { PlanetComponent} from './planet/planet.component';
 import { StarshipService} from './servicios/starship.service';
