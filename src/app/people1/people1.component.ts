@@ -6,7 +6,8 @@ import { People1Service } from '../servicios/people1.service';
   templateUrl: './people1.component.html',
   styleUrls: ['./people1.component.scss']
 })
-export class People1Component implements OnInit {
+
+export class People1.Component implements OnInit {
 
   people1: any;
 
