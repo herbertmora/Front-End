@@ -1,7 +1,7 @@
 
 import {Deserializable} from "./deserializable.model";
 
-export class vehicle {
+export class vehicle1 {
   name: string;
   model: string;
   manufacturer: string;
@@ -13,5 +13,4 @@ export class vehicle {
   cargo_capacity: string;
   consumables: string;
   vehicle_class: string;
-
 }

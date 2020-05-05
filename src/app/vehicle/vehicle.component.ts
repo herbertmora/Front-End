@@ -22,13 +22,13 @@ export class VehicleComponent implements OnInit {
      },
        error => {
          console.log(JSON.stringify(error));
-       });   
-   }   
+       });
+   }
 
    ngOnInit() {
     debugger;
     this.ObtenerVehicle();
-  } 
+  }
 
 
 }

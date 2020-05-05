@@ -8,14 +8,14 @@ export class FilmService {
 
   constructor(public httpClient: HttpClient) { }
 
-  public GetFilm() {  
+  public GetFilm() {
     debugger;
-  const url = 'https://swapi.py4e.com/api/films/1/';
+  const url = 'https://swapi.py4e.com/api/films/4/';
 
   const options = {
     headers: new HttpHeaders(
       {
-        'Content-Type': 'application/json'       
+        'Content-Type': 'application/json'
       }
     )
   };
