@@ -9,7 +9,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentsMainComponent } from './contentsMain/contentsmain.component';
 import { BodyFilmsComponent } from './body-films/body-films.component';
-
 import { FilmService} from './servicios/film.service';
 import { FilmComponent} from './film/film.component';
 import { Film1Service} from './servicios/film1.service';
@@ -28,13 +27,6 @@ import { Starship7Service} from './servicios/starship7.service';
 import { Starship8Service} from './servicios/starship8.service';
 import { VehicleService} from './servicios/vehicle.service';
 import { SpeciesService} from './servicios/species.service';
-
-
-
-
-
-
-
 
 
 import { Film1Component} from './film1/film1.component';
@@ -77,21 +69,13 @@ import { SpeciesComponent} from './species/species.component';
     Starship7Component,
     Starship8Component,
     VehicleComponent,
-
-
-
-
-
-
-
-
     SpeciesComponent,
     FooterComponent
+
+
   ],
   imports: [
     BrowserModule,
-
-
     HttpClientModule
   ],
   // tslint:disable-next-line: max-line-length
