@@ -82,7 +82,7 @@ import { SpeciesComponent} from './species/species.component';
     HttpClientModule
   ],
   // tslint:disable-next-line: max-line-length
-  providers: [DataSWService, FilmService, Film1Service, PeopleService, People1Service, People1Service, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
+  providers: [DataSWService, FilmService, Film1Service, PeopleService, People1Service, People2Service, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
