@@ -90,7 +90,7 @@ import { SpeciesComponent} from './species/species.component';
   ],
   imports: [
     BrowserModule,
-    People1Component,
+
 
     HttpClientModule
   ],
