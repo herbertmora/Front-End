@@ -38,7 +38,7 @@ import { Starship5Component} from './starship5/starship5.component';
 import { Starship6Component} from './starship6/starship6.component';
 import { Starship7Component} from './starship7/starship7.component';
 import { Starship8Component} from './starship8/starship8.component';
-import { Vehicle1Component} from './vehicle1/vehicle1.component';
+
 import { VehicleComponent} from './vehicle/vehicle.component';
 import { SpeciesComponent} from './species/species.component';
 
@@ -65,7 +65,7 @@ import { SpeciesComponent} from './species/species.component';
     Starship7Component,
     Starship8Component,
     VehicleComponent,
-    Vehicle1Component,
+
     SpeciesComponent,
     FooterComponent
   ],
@@ -74,7 +74,7 @@ import { SpeciesComponent} from './species/species.component';
     HttpClientModule
   ],
   // tslint:disable-next-line: max-line-length
-  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, Vehicle1Service, SpeciesService],
+  providers: [DataSWService, FilmService, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

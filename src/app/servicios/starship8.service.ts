@@ -8,22 +8,19 @@ export class Starship8Service {
 
   constructor(public httpClient: HttpClient) { }
 
-  public GetStarship8() {  
+  public GetStarship8() {
     debugger;
-  const url = 'https://swapi.py4e.com/api/starships/23/';
-  
-  
+    const url = 'https://swapi.py4e.com/api/starships/23/';
 
-  const options = {
+    const options = {
     headers: new HttpHeaders(
       {
-        'Content-Type': 'application/json'       
+        'Content-Type': 'application/json'
       }
     )
   };
-  return this.httpClient.get(url, options).pipe(map((response: Response) => {  return response;  }) );
+    return this.httpClient.get(url, options).pipe(map((response: Response) => {  return response;  }) );
 
-  
   }
 
 }

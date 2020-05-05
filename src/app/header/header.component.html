@@ -1,12 +1,12 @@
 <header>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-  
-  
+
+
   <div class="social_icons">
     <a href="index.html"><img class="logo" src="../../assets/images/starwars_logo.png" title="Inicio"></a>
-  
-   
-    
+
+
+
     <!--<ul>
       <li class="facebook"><a href="https://www.facebook.com/StarWars" target="_blank"><img src="../../assets/images/facebook.png" title="facebook"></a></li>
       <li class="tumblr"><a href="https://starwars.tumblr.com/" target="_blank"><img src="../../assets/images/tumblr.png" title="tumblr"></a></li>
@@ -19,32 +19,32 @@
   <div class="eslogan">
     <div id="main" ng-app>
       <nav ng-click="$event.preventDefault()">
-        
+
         <a href="#personajes" class="home" ng-click="active='home'">People</a>
         <a href="#planet" class="projects" ng-click="active='projects'">Planet</a>
                 <a href="#film" class="contact" ng-click="active='contact'">Films</a>
                 <a href="#vehicle" class="services" ng-click="active='services'">Vehicles</a>
                 <a href="#starshipts" class="Starshipts" ng-click="active='starshipts'">Starshipts</a>
       </nav>
-    
+
     </div>
-    
+
   </div>
 
-  <a href="#modalPersonajes">Naves espaciales</a>
+  <a href="#modalPersonajes">Starshipts</a>
 
 <div id="modalPersonajes" class="modalDialog">
 	<div>
 		<a href="#close" title="Close" class="close">X</a>
-    
+
     <div class="slider">
-  
+
       <a href="#slide-1">1</a>
       <a href="#slide-2">2</a>
       <a href="#slide-3">3</a>
       <a href="#slide-4">4</a>
       <a href="#slide-5">5</a>
-    
+
       <div class="slides">
         <div id="slide-1">
           <app-starship1></app-starship1>
@@ -63,14 +63,14 @@
         </div>
       </div>
     </div>
-    
-    
+
+
 	</div>
 </div>
 
 
   <div class="search_box">
-        
+
         <input ng-model="q" id="search" class="busqueda" placeholder="Buscar ...">
       </div>
 </header>

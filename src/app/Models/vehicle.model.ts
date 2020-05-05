@@ -13,5 +13,5 @@ export class vehicle {
   cargo_capacity: string;
   consumables: string;
   vehicle_class: string;
-  films: string
+
 }

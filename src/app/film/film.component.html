@@ -1,16 +1,21 @@
 
+  <section class="seccion_films"  id="films" ng-app="myApp" ng-controller="MyCtrl">
+    <h1>Peliculas</h1>
+
+
+
 <table class="seccion_personajes" >
-  <tr ng-repeat="people in name">   
-    <td>Filmación:</td>
-    <td><img src="../../assets/images/film.jpg" title="c3po"></td>
+  <tr ng-repeat="people in name">
+    <td>The Phantom Menace</td>
+    <td><img src="../../assets/images/episodio 1.png" title="The Phantom Menace"></td>
   </tr>
   <tr>
     <td>Titulo:</td>
-    <td>{{film.title}}</td>  
+    <td>{{film.title}}</td>
   </tr>
   <tr>
     <td>Episodio:</td>
-    <td>{{film.episode_id}}</td>  
+    <td>{{film.episode_id}}</td>
   </tr>
   <tr>
     <td>Abrir:</td>
@@ -26,8 +31,9 @@
   </tr>
   <tr>
     <td>Fecha:</td>
-    <td>{{film.release_date}}</td>  
+    <td>{{film.release_date}}</td>
   </tr>
+
 </table>
 
 
