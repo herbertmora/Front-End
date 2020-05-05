@@ -22,13 +22,13 @@ export class People1Component implements OnInit {
      },
        error => {
          console.log(JSON.stringify(error));
-       });
-   }
+       });   
+   }   
 
    ngOnInit() {
     debugger;
     this.ObtenerPeople1();
-  }
+  } 
 
 
 }

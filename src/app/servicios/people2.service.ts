@@ -10,7 +10,7 @@ export class People2Service {
 
   public GetPeople2() {
     debugger;
-    const url = 'https://swapi.py4e.com/api/people/2/';
+    const url = 'https://swapi.py4e.com/api/people/3/';
 
     const options = {
     headers: new HttpHeaders(
@@ -24,4 +24,3 @@ export class People2Service {
   }
 
 }
-
