@@ -27,10 +27,24 @@ import { Starship7Service} from './servicios/starship7.service';
 import { Starship8Service} from './servicios/starship8.service';
 import { VehicleService} from './servicios/vehicle.service';
 import { Vehicle1Service} from './servicios/vehicle1.service';
+
+
+
+
+
+
+
+
 import { SpeciesService} from './servicios/species.service';
 
 import { Film1Service} from './servicios/film1.service';
 import { Film1Component} from './film1/film1.component';
+
+
+
+
+
+
 
 
 
@@ -47,6 +61,8 @@ import { Starship5Component} from './starship5/starship5.component';
 import { Starship6Component} from './starship6/starship6.component';
 import { Starship7Component} from './starship7/starship7.component';
 import { Starship8Component} from './starship8/starship8.component';
+
+
 
 
 
@@ -77,6 +93,8 @@ import { SpeciesComponent} from './species/species.component';
     Starship8Component,
     VehicleComponent,
     Film1Component,
+
+
 
 
 

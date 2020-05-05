@@ -1,3 +1,5 @@
+
+
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import { map, finalize } from 'rxjs/operators';
@@ -5,6 +7,7 @@ import { map, finalize } from 'rxjs/operators';
 
 @Injectable()
 export class Film1Service {
+
 
   constructor(public httpClient: HttpClient) { }
 
