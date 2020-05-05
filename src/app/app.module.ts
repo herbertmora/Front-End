@@ -12,8 +12,9 @@ import { BodyFilmsComponent } from './body-films/body-films.component';
 
 import { FilmService} from './servicios/film.service';
 import { FilmComponent} from './film/film.component';
+import { Film1Service} from './servicios/film1.service';
 import { PeopleService} from './servicios/people.service';
-import { PeopleComponent} from './people/people.component';
+import { People1Service} from './servicios/people1.service';
 import { PlanetService} from './servicios/planet.service';
 import { PlanetComponent} from './planet/planet.component';
 import { StarshipService} from './servicios/starship.service';
@@ -27,33 +28,21 @@ import { Starship7Service} from './servicios/starship7.service';
 import { Starship8Service} from './servicios/starship8.service';
 import { VehicleService} from './servicios/vehicle.service';
 import { Vehicle1Service} from './servicios/vehicle1.service';
-
-
-
-
-
-
-
-
 import { SpeciesService} from './servicios/species.service';
 
-import { Film1Service} from './servicios/film1.service';
+
+
+
+
+
+
+
+
 import { Film1Component} from './film1/film1.component';
-
-
-
-
-
-
-
-
-
-
 import { StarshipComponent} from './starship/starship.component';
 import { Starship1Component} from './starship1/starship1.component';
-import { People1Service} from './servicios/people.service';
-import { People1Component} from './people/people.component';
-
+import { PeopleComponent} from './people/people.component';
+import { People1Component} from './people1/people1.component';
 import { Starship2Component} from './starship2/starship2.component';
 import { Starship3Component} from './starship3/starship3.component';
 import { Starship4Component} from './starship4/starship4.component';
@@ -61,11 +50,6 @@ import { Starship5Component} from './starship5/starship5.component';
 import { Starship6Component} from './starship6/starship6.component';
 import { Starship7Component} from './starship7/starship7.component';
 import { Starship8Component} from './starship8/starship8.component';
-
-
-
-
-
 import { VehicleComponent} from './vehicle/vehicle.component';
 import { SpeciesComponent} from './species/species.component';
 
@@ -80,7 +64,9 @@ import { SpeciesComponent} from './species/species.component';
     ContentsMainComponent,
     BodyFilmsComponent,
     FilmComponent,
+    Film1Component,
     PeopleComponent,
+    People1Component,
     PlanetComponent,
     StarshipComponent,
     Starship1Component,
@@ -92,7 +78,7 @@ import { SpeciesComponent} from './species/species.component';
     Starship7Component,
     Starship8Component,
     VehicleComponent,
-    Film1Component,
+
 
 
 
@@ -110,11 +96,7 @@ import { SpeciesComponent} from './species/species.component';
     HttpClientModule
   ],
   // tslint:disable-next-line: max-line-length
-<<<<<<< HEAD
-  providers: [DataSWService, FilmService, PeopleService, People1Service, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
-=======
-  providers: [DataSWService, FilmService, Film1Service, PeopleService, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
->>>>>>> 707e4e3b6e40a105b58c90bd160def88a8b775ee
+  providers: [DataSWService, FilmService, Film1Service, PeopleService, People1Service, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
