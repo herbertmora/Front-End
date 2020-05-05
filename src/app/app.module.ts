@@ -27,7 +27,6 @@ import { Starship6Service} from './servicios/starship6.service';
 import { Starship7Service} from './servicios/starship7.service';
 import { Starship8Service} from './servicios/starship8.service';
 import { VehicleService} from './servicios/vehicle.service';
-import { Vehicle1Service} from './servicios/vehicle1.service';
 import { SpeciesService} from './servicios/species.service';
 
 
