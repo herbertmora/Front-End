@@ -1,60 +1,57 @@
 
     <section class="seccion_films"  id="films" ng-app="myApp" ng-controller="MyCtrl">
-      <h1>--------------------------------------------------------</h1>
 
+    <section class="seccion_films"  id="personajes">
+      <h1><a href="#modalPersonajes">Personajes</a></h1>
+      <br>
+      <div class="seccion_films">
+        <table class="seccion_films">
+        <tr ng-repeat="people in name">
+          <td>Luke Skywalker</td>
+          <td><img src="../../assets/images/luke1.png" title="Luke_Skywalker" height="200px" width="200px"></td>
+        </tr>
+        <tr>
+          <td>Nombre: </td>
+          <td>{{people.name}}</td>
+        </tr>
+        <tr>
+          <td>Altura: </td>
+          <td>{{people.height}}</td>
+        </tr>
+        <tr>
+          <td>Masa: </td>
+          <td>{{people.mass}}</td>
+        </tr>
+        <tr>
+          <td>Color de cabello: </td>
+          <td>{{people.hair_color}}</td>
+        </tr>
+        <tr>
+          <td>Color de piel: </td>
+          <td>{{people.skin_color}}</td>
+        </tr>
+        <tr>
+          <td>Color de ojos: </td>
+          <td>{{people.eye_color}}</td>
+        </tr>
+        <tr>
+          <td>Fecha de cumpleaños: </td>
+          <td>{{people.birth_year}}</td>
+        </tr>
+        <tr>
+          <td>Genero: </td>
+          <td>{{people.gender}}</td>
+      </tr>
+        <tr>
+          <td>Creado: </td>
+          <td>{{people.created}}</td>
+      </tr>
+        <tr>
+          <td>Editado: </td>
+          <td>{{people.edited}}</td>
+      </tr>
 
-
-  <section class="seccion_personajes"  id="personajes">
-    <h1>Personajes</h1><br>
-      <div class="seccion_personajes">
-
-  <table class="seccion_personajes">
-  <tr ng-repeat="people in name">
-    <td>Luke Skywalker</td>
-    <td><img src="../../assets/images/luke1.png" title="Luke_Skywalker"></td>
-  </tr>
-  <tr>
-    <td>Nombre: </td>
-    <td>{{people.name}}</td>
-  </tr>
-  <tr>
-    <td>Altura: </td>
-    <td>{{people.height}}</td>
-  </tr>
-  <tr>
-    <td>Masa: </td>
-    <td>{{people.mass}}</td>
-  </tr>
-  <tr>
-    <td>Color de cabello: </td>
-    <td>{{people.hair_color}}</td>
-  </tr>
-  <tr>
-    <td>Color de piel: </td>
-    <td>{{people.skin_color}}</td>
-  </tr>
-  <tr>
-    <td>Color de ojos: </td>
-    <td>{{people.eye_color}}</td>
-  </tr>
-  <tr>
-    <td>Fecha de cumpleaños: </td>
-    <td>{{people.birth_year}}</td>
-  </tr>
-  <tr>
-     <td>Genero: </td>
-    <td>{{people.gender}}</td>
- </tr>
-  <tr>
-    <td>Creado: </td>
-    <td>{{people.created}}</td>
- </tr>
-  <tr>
-    <td>Editado: </td>
-    <td>{{people.edited}}</td>
- </tr>
-
-</table>
+      </table>
 
 
 
