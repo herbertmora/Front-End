@@ -4,9 +4,6 @@
 
   <div class="social_icons">
     <a href="index.html"><img class="logo" src="../../assets/images/starwars_logo.png" title="Inicio"></a>
-
-
-
     <!--<ul>
       <li class="facebook"><a href="https://www.facebook.com/StarWars" target="_blank"><img src="../../assets/images/facebook.png" title="facebook"></a></li>
       <li class="tumblr"><a href="https://starwars.tumblr.com/" target="_blank"><img src="../../assets/images/tumblr.png" title="tumblr"></a></li>
@@ -19,21 +16,27 @@
   <div class="eslogan">
     <div id="main" ng-app>
       <nav ng-click="$event.preventDefault()">
-
         <a href="#personajes" class="home" ng-click="active='home'">People</a>
         <a href="#planet" class="projects" ng-click="active='projects'">Planet</a>
-                <a href="#film" class="contact" ng-click="active='contact'">Films</a>
-                <a href="#vehicle" class="services" ng-click="active='services'">Vehicles</a>
-                <a href="#starshipts" class="Starshipts" ng-click="active='starshipts'">Starshipts</a>
+        <a href="#film" class="contact" ng-click="active='contact'">Films</a>
+        <a href="#vehicle" class="services" ng-click="active='services'">Vehicles</a>
+        <a href="#starshipts" class="Starshipts" ng-click="active='starshipts'">Starshipts</a>
       </nav>
+    </div>
+  </div>
+  <!-- <div clas="row">
+    <div clas="col-md-4">
 
     </div>
+    <div clas="col-md-4">
 
-  </div>
+    </div>
+    <div clas="col-md-4">
 
-  <a href="#modalPersonajes">Starshipts</a>
+    </div>
+  </div> -->
 
-<div id="modalPersonajes" class="modalDialog">
+<div id="modalNaves" class="modalDialog">
 	<div>
 		<a href="#close" title="Close" class="close">X</a>
 
@@ -63,8 +66,171 @@
         </div>
       </div>
     </div>
+	</div>
+</div>
 
+<div id="modalPersonajes" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
 
+    <div class="slider">
+
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+
+      <div class="slides">
+        <div id="slide-1">
+          <app-people1></app-people1>
+        </div>
+        <div id="slide-2">
+          <app-people2></app-people2>
+        </div>
+        <div id="slide-3">
+          <app-people3></app-people3>
+        </div>
+        <!-- <div id="slide-4">
+          <app-starship4></app-starship4>
+        </div>
+        <div id="slide-5">
+          <app-starship5></app-starship5>
+        </div> -->
+      </div>
+    </div>
+	</div>
+</div>
+
+<div id="modalPeliculas" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+
+    <div class="slider">
+
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+
+      <div class="slides">
+        <div id="slide-1">
+          <app-film1></app-film1>
+        </div>
+        <div id="slide-2">
+          <app-people2></app-people2>
+        </div>
+        <div id="slide-3">
+          <app-people3></app-people3>
+        </div>
+        <!-- <div id="slide-4">
+          <app-starship4></app-starship4>
+        </div>
+        <div id="slide-5">
+          <app-starship5></app-starship5>
+        </div> -->
+      </div>
+    </div>
+	</div>
+</div>
+
+<div id="modalPlanetas" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+
+    <div class="slider">
+
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+
+      <div class="slides">
+        <div id="slide-1">
+          <app-people1></app-people1>
+        </div>
+        <div id="slide-2">
+          <app-people2></app-people2>
+        </div>
+        <div id="slide-3">
+          <app-people3></app-people3>
+        </div>
+        <!-- <div id="slide-4">
+          <app-starship4></app-starship4>
+        </div>
+        <div id="slide-5">
+          <app-starship5></app-starship5>
+        </div> -->
+      </div>
+    </div>
+	</div>
+</div>
+
+<div id="modalEspecies" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+
+    <div class="slider">
+
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+
+      <div class="slides">
+        <div id="slide-1">
+          <app-people1></app-people1>
+        </div>
+        <div id="slide-2">
+          <app-people2></app-people2>
+        </div>
+        <div id="slide-3">
+          <app-people3></app-people3>
+        </div>
+        <!-- <div id="slide-4">
+          <app-starship4></app-starship4>
+        </div>
+        <div id="slide-5">
+          <app-starship5></app-starship5>
+        </div> -->
+      </div>
+    </div>
+	</div>
+</div>
+
+<div id="modalVehiculos" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+
+    <div class="slider">
+
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+
+      <div class="slides">
+        <div id="slide-1">
+          <app-people1></app-people1>
+        </div>
+        <div id="slide-2">
+          <app-people2></app-people2>
+        </div>
+        <div id="slide-3">
+          <app-people3></app-people3>
+        </div>
+        <!-- <div id="slide-4">
+          <app-starship4></app-starship4>
+        </div>
+        <div id="slide-5">
+          <app-starship5></app-starship5>
+        </div> -->
+      </div>
+    </div>
 	</div>
 </div>
 
