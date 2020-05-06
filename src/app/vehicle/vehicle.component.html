@@ -1,62 +1,58 @@
 <section class="seccion_films"  id="films" ng-app="myApp" ng-controller="MyCtrl">
-  <h1>--------------------------------------------------------------------------------</h1>
-
 
   <section class="seccion_vehiculos" id="vehicle">
-    <h1>Vehiculos</h1><br>
+    <h1><a href="#modalVehiculos">Vehiculos</a></h1>
+    <br>
       <div class="wrapper_vehiculos">
+        <table class="seccion_personajes">          
+          <tr ng-repeat="people in name">
+            <td>Snowpeeders: </td>
+            <td><img src="../../assets/images/snowspeeder.jpg" title="snowspeeder" height="200px" width="200px"></td>
+          </tr>
+          <tr>
+            <td>Nombre:</td>
+            <td>{{vehicle.name}}</td>
+          </tr>
+          <tr>
+            <td>Modelo:</td>
+            <td>{{vehicle.model}}</td>
+          </tr>
+          <tr>
+            <td>Fabricante:</td>
+            <td>{{vehicle.manufacturer}}</td>
+          </tr>
+          <tr>
+            <td>Costo en Creditos:</td>
+            <td>{{vehicle.cost_in_credits}}</td>
+          </tr>
+          <tr>
+            <td>Longitud</td>
+            <td>{{vehicle.length}}</td>
+          </tr>
+          <tr>
+            <td>Velocida Maxima de Atmósfera:</td>
+            <td>{{vehicle.max_atmosphering_speed}}</td>
+          </tr>
+          <tr>
+            <td>Personal:</td>
+            <td>{{vehicle.crew}}</td>
+          </tr>
+          <tr>
+            <td>Pasajeras:</td>
+            <td>{{vehicle.passengers}}</td>
+          </tr>
+          <tr>
+            <td>Capacida de Carga:</td>
+            <td>{{vehicle.cargo_capacity}}</td>
+          </tr>
+          <tr>
+            <td>Consumibles:</td>
+            <td>{{vehicle.consumables}}</td>
+          </tr>
+        </table> 
+      </div>
 
-<div class="row">
-  <div class="col-md-4">Hola</div>
-        <div class="col-md-4" >
-          <table class="seccion_personajes">
-            <tr ng-repeat="people in name">
-              <td>Snowpeeders: </td>
-              <td><img src="../../assets/images/snowspeeder.jpg" title="snowspeeder"></td>
-            </tr>
-            <tr>
-              <td>Nombre:</td>
-              <td>{{vehicle.name}}</td>
-            </tr>
-            <tr>
-              <td>Modelo:</td>
-              <td>{{vehicle.model}}</td>
-            </tr>
-            <tr>
-              <td>Fabricante:</td>
-              <td>{{vehicle.manufacturer}}</td>
-            </tr>
-            <tr>
-              <td>Costo en Creditos:</td>
-              <td>{{vehicle.cost_in_credits}}</td>
-            </tr>
-            <tr>
-              <td>Longitud</td>
-              <td>{{vehicle.length}}</td>
-            </tr>
-            <tr>
-              <td>Velocida Maxima de Atmósfera:</td>
-              <td>{{vehicle.max_atmosphering_speed}}</td>
-            </tr>
-            <tr>
-              <td>Personal:</td>
-              <td>{{vehicle.crew}}</td>
-            </tr>
-            <tr>
-              <td>Pasajeras:</td>
-              <td>{{vehicle.passengers}}</td>
-            </tr>
-            <tr>
-              <td>Capacida de Carga:</td>
-              <td>{{vehicle.cargo_capacity}}</td>
-            </tr>
-            <tr>
-              <td>Consumibles:</td>
-              <td>{{vehicle.consumables}}</td>
-            </tr>
-          </table>
 
-        </div>
 
 
 
