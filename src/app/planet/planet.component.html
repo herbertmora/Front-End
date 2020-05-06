@@ -1,53 +1,56 @@
 
 
-<section class="seccion_planets"  id="planet">
-  <h1>Planetas</h1><br>
+<section class="seccion_personajes"  id="planet">
+  <h1>Primera Temporada de StarWars</h1><br>
     <div class="wrapper_naves">
+      <table class="seccion_personajes">
+        <h3><a href="#modalPlanetas">Planetas</a></h3>
+        <tr ng-repeat="people in name">
+          <td>Planetas:</td>
+          <td><img src="../../assets/images/planeta.jpg" title="c3po" height="200px" width="200px"></td>
+        </tr>
+        <tr>
+          <td>Nombre:</td>
+          <td>{{planet.name}}</td>
+        </tr>
+        <tr>
+          <td>Periodo rotación:</td>
+          <td>{{planet.rotation_period}}</td>
+        </tr>
+        <tr>
+          <td>Periodo orbitacional:</td>
+          <td>{{planet.orbital_period}}</td>
+        </tr>
+        <tr>
+          <td>Diametro:</td>
+          <td>{{planet.diameter}}</td>
+        </tr>
+        <tr>
+          <td>Clima:</td>
+          <td>{{planet.climate}}</td>
+        </tr>
+        <tr>
+          <td>Gravedad:</td>
+          <td>{{planet.gravity}}</td>
+        </tr>
+        <tr>
+          <td>Terreno:</td>
+          <td>{{planet.terrain}}</td>
+        </tr>
+        <tr>
+          <td>Superficie del Agua:</td>
+          <td>{{planet.surface_water}}</td>
+      </tr>
+        <tr>
+          <td>Población:</td>
+          <td>{{planet.population}}</td>
+      </tr>
+      </table>
+      <app-species></app-species>
+      <app-vehicle></app-vehicle>
+    </div>
 
 
-
-<table class="seccion_planets">
-  <tr ng-repeat="people in name">
-    <td>Planetas:</td>
-    <td><img src="../../assets/images/planeta.jpg" title="c3po"></td>
-  </tr>
-  <tr>
-    <td>Nombre:</td>
-    <td>{{planet.name}}</td>
-  </tr>
-  <tr>
-    <td>Periodo rotación:</td>
-    <td>{{planet.rotation_period}}</td>
-  </tr>
-  <tr>
-    <td>Periodo orbitacional:</td>
-    <td>{{planet.orbital_period}}</td>
-  </tr>
-  <tr>
-    <td>Diametro:</td>
-    <td>{{planet.diameter}}</td>
-  </tr>
-  <tr>
-    <td>Clima:</td>
-    <td>{{planet.climate}}</td>
-  </tr>
-  <tr>
-    <td>Gravedad:</td>
-    <td>{{planet.gravity}}</td>
-  </tr>
-  <tr>
-    <td>Terreno:</td>
-    <td>{{planet.terrain}}</td>
-  </tr>
-  <tr>
-     <td>Superficie del Agua:</td>
-    <td>{{planet.surface_water}}</td>
- </tr>
-  <tr>
-    <td>Población:</td>
-    <td>{{planet.population}}</td>
- </tr>
-</table>
 
 
 
