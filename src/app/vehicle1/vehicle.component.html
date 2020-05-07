@@ -1,0 +1,59 @@
+<section class="seccion_films"  id="films" ng-app="myApp" ng-controller="MyCtrl">
+
+  <section class="seccion_vehiculos" id="vehicle1">
+    <h1><a href="#modalVehiculos">Vehiculos</a></h1>
+    <br>
+      <div class="wrapper_vehiculos">
+        <table class="seccion_personajes">          
+          <tr ng-repeat="people in name">
+            <td>Snowpeeders: </td>
+            <td><img src="../../assets/images/snowspeeder.jpg" title="snowspeeder" height="200px" width="200px"></td>
+          </tr>
+          <tr>
+            <td>Nombre:</td>
+            <td>{{vehicle1.name}}</td>
+          </tr>
+          <tr>
+            <td>Modelo:</td>
+            <td>{{vehicle1.model}}</td>
+          </tr>
+          <tr>
+            <td>Fabricante:</td>
+            <td>{{vehicle1.manufacturer}}</td>
+          </tr>
+          <tr>
+            <td>Costo en Creditos:</td>
+            <td>{{vehicle1.cost_in_credits}}</td>
+          </tr>
+          <tr>
+            <td>Longitud</td>
+            <td>{{vehicle1.length}}</td>
+          </tr>
+          <tr>
+            <td>Velocida Maxima de Atmósfera:</td>
+            <td>{{vehicle1.max_atmosphering_speed}}</td>
+          </tr>
+          <tr>
+            <td>Personal:</td>
+            <td>{{vehicle1.crew}}</td>
+          </tr>
+          <tr>
+            <td>Pasajeras:</td>
+            <td>{{vehicle1.passengers}}</td>
+          </tr>
+          <tr>
+            <td>Capacida de Carga:</td>
+            <td>{{vehicle1.cargo_capacity}}</td>
+          </tr>
+          <tr>
+            <td>Consumibles:</td>
+            <td>{{vehicle1.consumables}}</td>
+          </tr>
+        </table> 
+      </div>
+
+
+
+
+
+
