@@ -111,7 +111,7 @@ li.youtube:hover {
   padding: 1px;
   font-size: 26px;
   text-align: center;
-  color: #227e90;
+  color: #22902b;
   vertical-align: middle;
 }
 
@@ -187,10 +187,11 @@ li.youtube:hover {
 }
 
 /*******************grid personajes ********************/
+
 .seccion_personajes {
-  margin: 5px;
-  padding: 5px;
-  color: #ffe81f;
+  margin: 7px;
+  padding: 7px;
+  color: #5ec954;
 
 }
 
@@ -290,7 +291,7 @@ footer p {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffe81f;
+  background: #481fff;
 }
 
 /* Handle on hover */
@@ -366,16 +367,16 @@ footer p {
   display:inline-block;
   margin:60px auto 45px;
   background-color:#d8c419;
-  box-shadow:0 1px 1px #e6d11b;
+  box-shadow:0 5px 5px #4530bb;
   border-radius:2px;
  }
  
  nav a{
   display:inline-block;
   padding: 18px 30px;
-  color:#fff !important;
+  color:rgb(74, 43, 161) !important;
   font-weight:bold;
-  font-size:12px;
+  font-size:18px;
   text-decoration:none !important;
   line-height:1;
   text-transform: uppercase;
@@ -434,16 +435,16 @@ footer p {
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	background: rgb(241, 210, 69);
+	background: -moz-linear-gradient(rgb(241, 210, 69), rgb(241, 210, 69));
+	background: -webkit-linear-gradient(rgb(206, 95, 95), rgb(165, 41, 41));
+	background: -o-linear-gradient(rgb(69, 27, 221), rgb(27, 75, 206));
   -webkit-transition: opacity 400ms ease-in;
 -moz-transition: opacity 400ms ease-in;
 transition: opacity 400ms ease-in;
 }
 .close {
-	background: #606061;
+	background: #1818a5;
 	color: #FFFFFF;
 	line-height: 25px;
 	position: absolute;
@@ -508,7 +509,7 @@ transition: opacity 400ms ease-in;
   height: 600px;
   margin-right: 50px;
   border-radius: 10px;
-  background: #eee;
+  background: rgb(99, 137, 155);
   transform-origin: center center;
   transform: scale(1);
   transition: transform 0.5s;
@@ -541,7 +542,7 @@ transition: opacity 400ms ease-in;
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
-  background: white;
+  background: rgb(241, 210, 69);
   text-decoration: none;
   align-items: center;
   justify-content: center;

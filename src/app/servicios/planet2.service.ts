@@ -10,7 +10,7 @@ export class Planet2Service {
 
   public GetPlanet2() {  
     debugger;
-  const url = 'https://swapi.py4e.com/api/planets/2/';
+  const url = 'https://swapi.py4e.com/api/planets/3/';
 
   const options = {
     headers: new HttpHeaders(
