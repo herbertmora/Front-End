@@ -17,6 +17,8 @@ import { People1Service} from './servicios/people1.service';
 import { People2Service} from './servicios/people2.service';
 import { People3Service} from './servicios/people3.service';
 import { PlanetService} from './servicios/planet.service';
+import { Planet1Service} from './servicios/planet1.service';
+import { Planet2Service} from './servicios/planet2.service';
 import { StarshipService} from './servicios/starship.service';
 import { Starship1Service} from './servicios/starship1.service';
 import { Starship2Service} from './servicios/starship2.service';
@@ -38,6 +40,8 @@ import { People1Component} from './people1/people1.component';
 import { People2Component} from './people2/people2.component';
 import { People3Component} from './people3/people3.component';
 import { PlanetComponent} from './planet/planet.component';
+import { Planet1Component} from './planet1/planet1.component';
+import { Planet2Component} from './planet2/planet2.component';
 import { Starship2Component} from './starship2/starship2.component';
 import { Starship3Component} from './starship3/starship3.component';
 import { Starship4Component} from './starship4/starship4.component';
@@ -65,6 +69,8 @@ import { SpeciesComponent} from './species/species.component';
     People2Component,
     People3Component,
     PlanetComponent,
+    Planet1Component,
+    Planet2Component,
     StarshipComponent,
     Starship1Component,
     Starship2Component,
@@ -85,7 +91,7 @@ import { SpeciesComponent} from './species/species.component';
     HttpClientModule
   ],
   // tslint:disable-next-line: max-line-length
-  providers: [DataSWService, FilmService, Film1Service, PeopleService, People1Service, People2Service, People3Service, PlanetService, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
+  providers: [DataSWService, FilmService, Film1Service, PeopleService, People1Service, People2Service, People3Service, PlanetService, Planet1Service, Planet2Service, StarshipService, Starship1Service, Starship2Service, Starship3Service, Starship4Service, Starship5Service, Starship6Service, Starship7Service, Starship8Service, VehicleService, SpeciesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
