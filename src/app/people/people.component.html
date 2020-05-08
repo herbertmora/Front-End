@@ -1,18 +1,17 @@
+<section class="seccion_films"  id="personajes" ng-app="myApp" ng-controller="MyCtrl">
 
-    <section class="seccion_films"  id="films" ng-app="myApp" ng-controller="MyCtrl">
-
-    <section class="seccion_films"  id="personajes">
-      <h1><a href="#modalPersonajes">Personajes</a></h1>
-      <br>
-      <div class="seccion_films">
-        <table class="seccion_films">
+  <section class="seccion_naves"  id="naves">
+      <div class="wrapper_naves">
+        <table class="seccion_peliculas">
+          <h3><a href="#modalPersonajes">Personajes</a></h3>
         <tr ng-repeat="people in name">
           <td>Luke Skywalker</td>
           <td><img src="../../assets/images/luke1.png" title="Luke_Skywalker" height="200px" width="200px"></td>
         </tr>
+        <br>
         <tr>
           <td>Nombre: </td>
-          <td>{{people.name}}</td>
+          <td>{{people.name}}</td>  
         </tr>
         <tr>
           <td>Altura: </td>
